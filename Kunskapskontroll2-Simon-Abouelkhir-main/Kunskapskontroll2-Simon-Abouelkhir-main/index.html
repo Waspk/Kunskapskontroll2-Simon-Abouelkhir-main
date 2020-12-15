@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/28c4376084.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="wrapper">
+        <div class="app-container">
+            <header class="header">
+                <div class="header-text">
+                    <p class="error"></p>
+                    <p class="weather"></p>
+                    <h1 class="temp"></h1>
+                </div>
+            </header>
+
+            <footer>
+                <form id='city-form'>
+                    <input type='text' id="city-name" placeholder = 'enter a city name...'>
+                    <i class="fas fa-search"></i>
+                </form>
+                
+                <div class="title">
+                    <h3 class="city-name"></h3>
+                    <img alt="weather-icon" class="icon">
+                </div>
+            
+                <div class="info-box">
+                    <ul class="info-list">
+                        <li class="list-item">
+                            <p class="heading">Temprature:</p>
+                            <p class="temp"></p>
+                        </li>
+
+                        <li class="list-item">
+                            <p class="heading">Wind:</p>
+                            <p class="wind"></p>
+                        </li>
+
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

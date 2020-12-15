@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(97, 65, 65);
+}
+
+#wrapper{
+    max-width: 450px;
+    margin: 50px auto;
+}
+
+.app-container{
+    width: 100%;
+    height: 600px;
+    background-image: url("../img/winter.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+
+
+
+.header{
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 6rem;
+}
+
+.header-text{
+    color: #f1d8d8
+}
+
+.error{
+    color: rgb(197, 39, 74);
+}
+
+.weather{
+    font-weight: 100;
+    font-size: 1.1rem;
+    margin-bottom: .5rem;
+    letter-spacing: .1rem;
+
+}
+
+.header .temp{
+    font-weight: 400;
+    font-size: 4.7rem;
+}
+
+.header .temp span{
+    font-weight: 100;
+}
+
+
+
+
+footer{
+    flex-direction: column;
+    height: 50%;
+    background-color: #1a1a1a57;
+    align-items: center;
+    padding: 2rem;
+    color: #e9dcdc;
+    border-top: #d3bebea6 solid 1px;
+    border-radius: 10px;
+
+}
+
+
+
+
+#city-form{
+    border: solid 1px rgb(187, 186, 186);
+    border-radius: 15px;
+    padding: 3px 3px;
+    text-align: center;
+}
+
+#city-name{
+    border: none;
+    outline: none;
+    height: 1.5rem;
+    width: 0; 
+
+    background-color: transparent;
+    color: #ffffff;
+
+    transition: ease 300ms;
+}
+
+#city-form:hover > #city-name{
+    width: 7.6rem;
+    padding-left: 5px;
+}
+
+#city-name:focus{
+    width: 7.6rem;
+    padding-left: 5px;
+}
+
+.fas{
+    color: rgb(238, 211, 211);
+    padding-right: 3px;
+    padding-top: 2px;
+}
+
+.icon{
+    display: none;
+}
+
+
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+
+.city-name{
+    margin: 1.4rem .1rem;
+    font-size: 2rem;
+
+}
+
+.info-box{
+    width: 100%;
+}
+
+
+.list-item{
+    display: flex;
+    justify-content:
+    space-between;
+    margin-bottom: 2.4rem;
+
+    font-size: 1.1rem;
+}
